@@ -1,0 +1,1025 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass ihm
+\begin_preamble
+% !TEX encoding = UTF-8 Unicode
+%
+% Ce document est écrit au format UTF-8.
+% Il est adapté depuis http://www.sigchi.org/publications/chipubform.
+%
+
+
+% Décommentez cette ligne pour remettre les numéros de page.
+% \pagenumbering{arabic}
+
+
+% Quelques packages indispensables.
+\usepackage{balance}\usepackage{graphics}\usepackage{times}\usepackage{url}
+
+% Style pour les URLs
+
+\def\url@leostyle{%
+  \@ifundefined{selectfont}{\def\UrlFont{\sf}}{\def\UrlFont{\small\bf\ttfamily}}}
+
+\urlstyle{leo}
+
+
+% Ne pas modifier
+\def\pprw{21cm}
+\def\pprh{29.7cm}
+\special{papersize=\pprw,\pprh}
+\setlength{\paperwidth}{\pprw}
+\setlength{\paperheight}{\pprh}
+\setlength{\pdfpagewidth}{\pprw}
+\setlength{\pdfpageheight}{\pprh}
+
+% Hyperref doit être le dernier package à inclure.
+% N'oubliez pas de renseigner les informations qui se trouvent ici.
+
+
+% Utilisez \tabhead{} pour les en-têtes de tableaux.
+\newcommand{\tabhead}[1]{\small\textbf{#1}}
+
+
+% Début du document
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package none
+\inputencoding utf8
+\fontencoding default
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_title "Format des publications finales pour IHM'13"
+\pdf_author "LaTeX"
+\pdf_keywords "format, instructions, qualitÃ©, actes de confÃ©rence"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder false
+\pdf_colorlinks false
+\pdf_backref section
+\pdf_pdfusetitle true
+\pdf_quoted_options "pdftex,bookmarksnumbered,pdfstartview={FitH},colorlinks,citecolor=black,filecolor=black,linkcolor=black,urlcolor=black,"
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 0
+\use_mathdots 0
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+title{Format des publications finales pour IHM'13}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+numberofauthors{3} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+author{   
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+alignauthor Premier Auteur
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+affaddr{Affiliation}
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+affaddr{Adresse}
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+affaddr{Code postal, Ville, Pays}
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+email{adresse e-mail}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+alignauthor Deuxième Auteur
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+email{adresse e-mail}
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+affaddr{Adresse}
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+affaddr{Code postal, Ville, Pays}
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+email{adresse e-mail}
+\end_layout
+
+\begin_layout Plain Layout
+
+	
+\backslash
+alignauthor Troisième Auteur
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+email{adresse e-mail}
+\backslash
+
+\backslash
+
+\backslash
+affaddr{Adresse}
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+affaddr{Code postal, Ville, Pays}
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+		
+\backslash
+email{adresse e-mail}
+\end_layout
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+maketitle
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Abstract
+Cet article décrit et utilise le format de mise en page à respecter pour
+ les soumissions à IHM'13.
+ Après acceptation, ces soumissions seront publiées dans les actes d'IHM'13,
+ ainsi que sur l'ACM Digital Library, sauf les communications informelles
+ qui seront publiées dans un volume annexe séparé.
+ Comme certains détails ont changé par rapport aux années précédentes, nous
+ vous prions de bien lire ce document même si vous avez déjà soumis à IHM
+ auparavant.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+keywords
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\end_inset
+
+ Format; instructions; qualité; actes de conférence; les mots-clés doivent
+ être séparés par des points-virgules.
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+category
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\end_inset
+
+H.5.m.
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\end_inset
+
+Information Interfaces and Presentation (e.g.
+ HCI)
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+{
+\end_layout
+
+\end_inset
+
+Miscellaneous
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+.
+ Voir 
+\begin_inset Flex Flex:URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.acm.org/about/class/1998/
+\end_layout
+
+\end_inset
+
+ pour la liste complète des catégories ACM.
+\end_layout
+
+\begin_layout Section
+Introduction
+\end_layout
+
+\begin_layout Standard
+Le format décrit dans ce document doit être respecté pour les soumissions
+ à la conférence IHM'13.
+ Nous souhaitons faire des actes d'IHM'13 un document de qualité à la présentati
+on homogène.
+ Nous demandons donc aux auteurs de respecter quelques règles simples.
+\end_layout
+
+\begin_layout Standard
+Nous vous demandons principalement de faire en sorte que votre article ressemble
+ exactement à ce document.
+ La meilleure façon d'y parvenir est de télécharger l'un des modèles proposés
+ depuis le site web de la conférence IHM'13
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "site_ihm"
+
+\end_inset
+
+, et de remplacer son contenu par le votre.
+\end_layout
+
+\begin_layout Section
+Format de mise en page et colonnes
+\end_layout
+
+\begin_layout Standard
+L'ensemble du texte doit tenir dans un rectangle de 17 x 24 cm, centré sur
+ une page au format A4 (21 x 29,7 cm).
+ Les marges gauche et droite sont de 2 cm, la marge haute de 2,8 cm et la
+ marge basse de 2,9 cm.
+ Le texte doit être disposé en deux colonnes de 8,1 cm de large, séparées
+ de 0,8 cm.
+ Le texte dans les colonnes doit être justifié des deux côtés (sauf pour
+ la section bibliographique).
+ Sur la première page, la colonne de gauche doit ménager un espace de 3,5
+ cm au moins pour que nous puissions insérer la notice de copyright.
+ Sur les pages suivant la première, utilisez deux colonnes depuis le haut
+ de la page.
+ Les deux colonnes de la dernière page doivent être de longueur égale.
+ Faites attention lorsque vous utilisez ce modèle de document sur un Macintosh,
+ car Word peut changer la mise en page inopinément.
+\end_layout
+
+\begin_layout Section
+Format du texte
+\end_layout
+
+\begin_layout Standard
+Le texte de l'article doit être en Times Roman 10 points.
+ Sur Macintosh, utilisez la police Times au lieu de Times New Roman.
+ N'utilisez des polices sans sérif ou non proportionnelles que pour du texte
+ spécial, comme les titres ou le code source.
+ Les paragraphes sont séparés entre eux par une ligne blanche de 6 points,
+ et il n'y a pas d'indentation au début du paragraphe.
+ L'utilisation de la césure n'est pas obligatoire.
+\end_layout
+
+\begin_layout Subsection
+Titre et Auteurs
+\end_layout
+
+\begin_layout Standard
+Le titre, le nom des auteurs et leurs adresses utilisent toute la largeur
+ de la page sur une seule colonne de largeur 17 cm.
+ Le titre doit Ãªtre en Helvetica gras 18 points.
+ Utilisez Arial si Helvetica n'est pas disponible.
+ Les noms des auteurs doivent Ãªtre en Times Roman gras 12 points, et leurs
+ adresses en Times Roman 12 points.
+\end_layout
+
+\begin_layout Standard
+Pour placer les coordonnées des auteurs, utilisez un tableau avec des bordures
+ invisibles, une seule ligne, et une colonne par auteur, comme dans ce document.
+ S'il y a une seule adresse, centrez-la en supprimant les sauts de colonne.
+ Laissez un espace de 10 points sous la dernière ligne de coordonnées.
+\end_layout
+
+\begin_layout Subsection
+Résumé et Mots Clés
+\end_layout
+
+\begin_layout Standard
+Chaque article doit commencer par un résumé d'environ 150 mots, suivi d'une
+ list de mots clés, qui doivent être placés dans la première colonne de
+ la première page, sous la moitié gauche du titre.
+ Le résumé doit synthétiser le problème, l'approche et les conclusions du
+ travail présenté dans l'article.
+ Il doit clairement faire apparaître la contribution de ce dernier.
+ En dessous de la première liste des mots clés doivent figurer les descripteurs
+ de catégories et de sujets conformes au système de classification de l'ACM
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "acm_categories"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+Bibliographie
+\end_layout
+
+\begin_layout Standard
+La liste numérotée des références bibliographiques doit être placée dans
+ la section bibliographie, à la fin de l'article, dans l'ordre alphabétique
+ en fonction du premier auteur.
+ Pour y faire référence dans le texte, utilisez des nombres entre crochets
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Mather:2000:MUT, Zellweger:2001:FAO:504216.504224"
+
+\end_inset
+
+.
+ Faites en sorte que le texte de cette section soit aligné à gauche et non
+ justifié.
+ Pour les articles de conférences, incluez le titre de l'article et le nom
+ abrégé de la conférence.
+ Par exemple, pour citer les actes d'Interact 2003, utilisez 
+\emph on
+Proc.
+ Interact 2003
+\emph default
+.
+ Ne rajoutez pas le lieu de la conférence ni la date exacte, mais incluez
+ les numéros de page si possible.
+ Inspirez-vous des exemples de références bibliographiques à la fin de ce
+ document.
+\end_layout
+
+\begin_layout Standard
+Vous devez faire référence à du contenu publié et accessible au public.
+ Les rapports internes peuvent être cités s'ils sont facilement accessibles,
+ par exemple si vous incluez une adresse dans votre citation, et s'ils peuvent
+ être obtenus à peu de frais.
+ Les communications personnelles doivent être indiquées dans le texte et
+ non référencées dans la bibliographie (par exemple : 
+\begin_inset Quotes eld
+\end_inset
+
+[Sainte-Force, communication personnelle]
+\begin_inset Quotes erd
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+% Mettez 
+\backslash
+balance dans la première colonne de la dernière page.
+\end_layout
+
+\begin_layout Plain Layout
+
+% Cela permet d'indiquer à LaTeX de faire en sorte que les colonnes
+\end_layout
+
+\begin_layout Plain Layout
+
+% aient la même longueur.
+ Si cela ne fonctionne pas, veuillez vous référer
+\end_layout
+
+\begin_layout Plain Layout
+
+% aux commentaires en anglais à la fin de ce document.
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+balance
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Sections
+\end_layout
+
+\begin_layout Standard
+Les titres des sections doivent être en Helvetica gras 9 points, en lettres
+ capitales.
+ Les sections ne sont pas numérotées.
+ Pour les sections, sous-sections et sous-sous-sections, la ligne de titre
+ est précédée d'un espace d'une ligne, et suivie d'aucun espace.
+\end_layout
+
+\begin_layout Subsection
+Sous-sections
+\end_layout
+
+\begin_layout Standard
+Les titres des sous-sections doivent être en Helvetica gras 9 points, avec
+ seulement les premières lettres de chaque mot en capitales.
+ Notez que pour les titres des sous-sections et les sous-sous-sections,
+ les mots comme
+\emph on
+le
+\emph default
+ ou 
+\emph on
+de
+\emph default
+ ne sont pas mis en captiales sauf s'ils sont au début du titre.
+\end_layout
+
+\begin_layout Subsubsection
+Sous-sous-sections
+\end_layout
+
+\begin_layout Standard
+Les titres des sous-sous-sections doivent être en Helvetica italique 9 points,
+ avec seulement les premières lettres de chaque mot en capitales.
+\end_layout
+
+\begin_layout Section
+Figures et Tableaux
+\end_layout
+
+\begin_layout Standard
+Placez les figures et les tableaux en haut ou en bas de la colonne, sur
+ la même page où elles sont référencées (voir Figure
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:figure1"
+
+\end_inset
+
+).
+ Les figures ou tableaux peuvent occuper la largeur d'une colonne (8,1 cm)
+ ou toute la largeur du texte (17 cm), selon les besoins.
+\end_layout
+
+\begin_layout Standard
+La légende doit être en Times New Roman gras 9 points.
+ Elle doit être numérotée (par exemple, 
+\begin_inset Quotes eld
+\end_inset
+
+Tableau
+\begin_inset space ~
+\end_inset
+
+1
+\begin_inset Quotes erd
+\end_inset
+
+ ou 
+\begin_inset Quotes eld
+\end_inset
+
+Figure
+\begin_inset space ~
+\end_inset
+
+2
+\begin_inset Quotes erd
+\end_inset
+
+), centrée, et placée en dessous de la figure ou du tableau.
+ Faites attention à ne pas abréger les mots.
+\end_layout
+
+\begin_layout Standard
+Prêtez attention à la qualité de vos figures, et pensez que certains lecteurs
+ n'auront de votre article qu'une version en noir et blanc.
+ Assurez-vous donc que vos figures restent lisibles dans ces conditions.
+ Préférez des images au format vectoriel, ou des images 
+\begin_inset Quotes eld
+\end_inset
+
+bitmap
+\begin_inset Quotes erd
+\end_inset
+
+ d'une résolution élevée (au moins 300 dpi).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement !t
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Graphics
+	filename Logo-ihm13.png
+	width 90col%
+
+\end_inset
+
+ 
+\begin_inset Caption
+
+\begin_layout Plain Layout
+La légende est en Times New Roman gras 9 points, numérotée, centrée, et
+ placée en dessous de la figure.
+ Il est préférable que vos figures soient des graphiques en haute résolution,
+ ou mieux, des graphiques vectoriels.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:figure1"
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Langue, style et contenu
+\end_layout
+
+\begin_layout Standard
+La langue officielle d'IHM'13 est le français, mais les auteurs peuvent
+ soumettre leurs articles en anglais.
+ La qualité de la rédaction fait partie des critères d'évaluation.
+ Veuillez faire attention à ces points en particulier :
+\end_layout
+
+\begin_layout Itemize
+Essayez d'utiliser des phrases courtes et un vocabulaire simple.
+ 
+\end_layout
+
+\begin_layout Itemize
+Assurez-vous d'avoir défini succinctement tous les termes techniques peu
+ familiers.
+\end_layout
+
+\begin_layout Itemize
+Expliquez les acronymes la première fois que vous les utilisez dans le texte.
+\end_layout
+
+\begin_layout Itemize
+Le public d'IHM'13 est varié et vient du monde entier.
+ Expliquez toute référence à une localité, une culture ou un environnement
+ particuliers que d'autres lecteurs ne pourraient comprendre.
+\end_layout
+
+\begin_layout Section
+En-tête, pied de page, numérotation
+\end_layout
+
+\begin_layout Standard
+Ne faites figurer aucun en-tête, pied de page ou numérotation.
+ Ces informations seront ajoutées lors de l'assemblage des soumissions.
+\end_layout
+
+\begin_layout Section
+Remerciements
+\end_layout
+
+\begin_layout Standard
+Ce document est basé sur le modèle des soumissions aux conférences SIGCHI,
+ ainsi que sur ceux des conférences IHM précédentes.
+ Merci à leurs nombreux auteurs.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+% Balancing columns in a ref list is a bit of a pain because you
+\end_layout
+
+\begin_layout Plain Layout
+
+% either use a hack like flushend or balance, or manually insert
+\end_layout
+
+\begin_layout Plain Layout
+
+% a column break.
+  http://www.tex.ac.uk/cgi-bin/texfaq2html?label=balance
+\end_layout
+
+\begin_layout Plain Layout
+
+% multicols doesn't work because we're already in two-column mode,
+\end_layout
+
+\begin_layout Plain Layout
+
+% and flushend isn't awesome, so I choose balance.
+  See this
+\end_layout
+
+\begin_layout Plain Layout
+
+% for more info: http://cs.brown.edu/system/software/latex/doc/balance.pdf
+\end_layout
+
+\begin_layout Plain Layout
+
+%
+\end_layout
+
+\begin_layout Plain Layout
+
+% Note that in a perfect world balance wants to be in the first
+\end_layout
+
+\begin_layout Plain Layout
+
+% column of the last page.
+\end_layout
+
+\begin_layout Plain Layout
+
+%
+\end_layout
+
+\begin_layout Plain Layout
+
+% If balance doesn't work for you, you can remove that and
+\end_layout
+
+\begin_layout Plain Layout
+
+% hard-code a column break into the bbl file right before you
+\end_layout
+
+\begin_layout Plain Layout
+
+% submit:
+\end_layout
+
+\begin_layout Plain Layout
+
+%
+\end_layout
+
+\begin_layout Plain Layout
+
+% http://stackoverflow.com/questions/2149854/how-to-manually-equalize-columns-
+\end_layout
+
+\begin_layout Plain Layout
+
+% in-an-ieee-paper-if-using-bibtex
+\end_layout
+
+\begin_layout Plain Layout
+
+%
+\end_layout
+
+\begin_layout Plain Layout
+
+% Or, just remove 
+\backslash
+balance and give up on balancing the last page.
+\end_layout
+
+\begin_layout Plain Layout
+
+%
+\end_layout
+
+\begin_layout Plain Layout
+
+% 
+\backslash
+balance
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+% If you want to use smaller typesetting for the reference list,
+\end_layout
+
+\begin_layout Plain Layout
+
+% uncomment the following line:
+\end_layout
+
+\begin_layout Plain Layout
+
+% 
+\backslash
+small
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "sample"
+options "acm-sigchi"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

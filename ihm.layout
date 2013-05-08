@@ -1,0 +1,12 @@
+#% Do not delete the line below; configure depends on this      
+#  \DeclareLaTeXClass[ihm]{article (IHM)}
+# IHM'13 conference ihm textclass definition file.
+# Author : Juan Sebastian Casallas
+# Based on the instructions from the LyX wiki:
+# http://wiki.lyx.org/Layouts/CreatingLayouts
+#
+# Use ihm.cls, downloadable from:
+# http://wiki.lyx.org/Layouts/CreatingLayouts
+
+# Read the definitions from article.layout
+Input article.layout
